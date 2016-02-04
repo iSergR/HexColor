@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HexColor"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "HexColor category for UIColor"
 
   # This description is used to generate tags and improve search results.
@@ -24,9 +24,8 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  #s.description  = <<-DESC
-  #                 DESC
-
+  s.description  = "HexColor category for UIColor description"
+  
   s.homepage     = "https://github.com/iSergR/HexColor"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
@@ -79,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/iSergR/HexColor.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/iSergR/HexColor.git", :tag => "0.0.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -116,7 +115,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
+  s.framework  = "UIKit"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
