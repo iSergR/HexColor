@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "HexColor"
-  s.version      = "0.0.5"
+  s.name         = "SRHexColor"
+  s.version      = "0.0.6"
   s.summary      = "HexColor category for UIColor"
 
   # This description is used to generate tags and improve search results.
