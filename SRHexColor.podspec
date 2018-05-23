@@ -89,11 +89,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  
   #s.exclude_files = "Classes/Exclude"
 
-   s.public_header_files = "Classes/**/*.h"
-
+   
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -132,6 +131,10 @@ Pod::Spec.new do |s|
 
   s.static_framework = true
   s.prefix_header_file = false
+  
+  #s.public_header_files = "Classes/**/*.h"
+  #s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  
   
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
