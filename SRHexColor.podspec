@@ -15,17 +15,18 @@ Pod::Spec.new do |s|
   s.static_framework = true
   s.prefix_header_file = false
 
-  s.source_files = 'Classes/**/*.[mh]'
+  s.source_files = 'Classes/*.[mh]'
 
-  s.public_header_files = "Classes/**/*.h"
+  s.public_header_files = "Classes/*.h"
 
-  #s.private_header_files = 'Classes/**/*.h'
+  s.private_header_files = 'Classes/*.h'
+  
   s.frameworks = [
     'Foundation',
     'SystemConfiguration',
     'UIKit'
   ]
-  s.requires_arc = true
+  #s.requires_arc = true
 
   s.pod_target_xcconfig = {
     'OTHER_CFLAGS' => '-fno-autolink ' +
