@@ -130,6 +130,9 @@ Pod::Spec.new do |s|
 
    s.requires_arc = true
 
+  s.static_framework = true
+  s.prefix_header_file = false
+  
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
 
