@@ -132,10 +132,9 @@ Pod::Spec.new do |s|
   s.static_framework = true
   s.prefix_header_file = false
   
-  #s.public_header_files = "Classes/**/*.h"
-  #s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.public_header_files = "Classes/**/*.h"
+  s.source_files  = "Classes", "Classes/**/*.{h,m}"
   
-  s.private_header_files = "Classes/**/*.h"
   
   
   
